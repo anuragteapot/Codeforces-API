@@ -1,2 +1,2 @@
 # Codeforces-API
-Codeforces api use example 
+How to use Codeforces API to getdata from codeforces.
