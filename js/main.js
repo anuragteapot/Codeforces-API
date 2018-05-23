@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded',function() {
   	shaObj.update(encode);
   	var hash = shaObj.getHash("HEX");
   	var url = "http://codeforces.com/api/problemset.problems?tags=implementation&api=" + key + "&time=" + time + "&apiSig="+ rand + hash;
-  	var demo = 'https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json';
 
   	var ourRequest = new XMLHttpRequest();
   	ourRequest.open('GET', url);
